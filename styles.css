@@ -1,0 +1,168 @@
+@font-face {
+    font-family: onepiece;
+    src: url(onepiecefont.ttf);
+ }
+
+body {
+    background-color: #141414;
+    margin: auto;
+    width: 70%;
+    display: block;
+    font-family: 'Lato';
+}
+
+.container {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo-container {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#logo-container img {
+    height: auto;
+    width: 70%;
+}
+
+#box-1 {
+    background-image: linear-gradient(#47bcfe, #123edd);
+    border: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 17px;
+    margin: 20px 50px 0px 50px;
+    text-align: left;
+}
+
+#box-2-container h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 50px;
+    color: white;
+    background-color: #123edd;
+    border-radius: 20px;
+    border: white;
+    border-style: solid;
+    width: 70%;
+    margin: -35px 15% 0 15%;
+    transform: translateY(50px);
+}
+
+#filler {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #47bcfe;
+    height: 40px;
+}
+
+#box-2 {
+    background-image: linear-gradient(#47bcfe, #123edd);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    border: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 0 50px;
+}
+
+.member {
+    height: 400px;
+    text-align: center;
+}
+
+.member p {
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+    height: 40px;
+    transform: translateY(-80px);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
+
+.member img {
+    height: 400px;
+    width: 100%;
+}
+
+#box-3-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.fact {
+    background-image: linear-gradient(#47bcfe, #123edd);
+    border: white 5px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 180px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.fact img {
+    height: 100px;
+    width: 50%;
+}
+
+.fact h1 {
+    font-size: 30px;
+}
+
+.fact p {
+    font-size: 20px;
+}
+
+#box-4 {
+    margin: 0 5%;
+}
+
+#box-4 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#box-5 {
+    display: block;
+    margin: 20px 5%;
+}
+
+#box-5 aside {
+    background-image: linear-gradient(#47bcfe, #123edd);
+    border: white 1px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+#box-5 img {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#box-5 p {
+    margin: 8px 0;
+    font-size: 19px;
+}
+
+footer {
+    background-color: #123edd;
+    color: white;
+    font-size: 14px;
+    padding: 10px 18%;
+}
